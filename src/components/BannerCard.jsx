@@ -8,7 +8,7 @@ const BannerCard = ({ title, desc, image }) => {
       <img
         className="absolute top-0 w-full h-full object-cover -z-10"
         src={`./images/${image}.webp`}
-        alt="banner_1"
+        alt={image}
       />
     </li>
   );
